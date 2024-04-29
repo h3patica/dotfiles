@@ -1,0 +1,4 @@
+$BROWSER="librewolf"
+$EDITOR="kitty emacs -nw"
+$FILEMANAGER="thunar"
+$TERM="kitty"

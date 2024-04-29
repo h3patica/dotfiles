@@ -1,0 +1,4 @@
+$BROWSER="librewolf"
+$EDITOR="st emacs -nw"
+$FILEMANAGER="thunar"
+$TERM="st"

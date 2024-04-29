@@ -1,0 +1,19 @@
+name¤git-remote¤git-branch¤base-path¤homepage¤author¤title¤description¤version-1
+4dwm_based¤https://notabug.org/nitrofurano/pekwmthemes.git¤master¤themes/4dwm_based¤https://notabug.org/nitrofurano/pekwmthemes¤Paulo Silva¤4dwm_based¤This is just a PekWM theme superficially based on SGI Irix 4DWM window manager - the button, decoration bevel and window title text arrangement is different from the original, and the button icons changes on mouse over and pressed behaviours (the original 4DWM ones doesn't do this).
+Detour¤https://github.com/okraits/pekwm-theme-detour.git¤main¤¤https://github.com/okraits/pekwm-theme-detour¤Oliver Kraitschy¤Detour theme for pekwm¤Detour, ported from the E17 Detour theme by Alberto Castro aka Tokyo.
+LightOne¤https://github.com/okraits/pekwm-theme-lightone.git¤main¤¤https://github.com/okraits/pekwm-theme-lightone¤Oliver Kraitschy¤LightOne, port of the E16 theme by kvas¤LightOne, ported from the E16 LightOne theme by kvas.
+NeoMotif¤https://notabug.org/nitrofurano/pekwmthemes.git¤master¤themes/NeoMotif¤https://notabug.org/nitrofurano/pekwmthemes¤Paulo Silva¤NeoMotif¤An embrionary stage of a Motif-like theme for PekWM
+benu¤https://github.com/vicgeralds/benu.git¤master¤¤https://github.com/vicgeralds/benu¤Victor Geraldsson¤BeOS style theme for pekwm¤
+default¤https://github.com/pekwm/pekwm.git¤master¤data/themes/default¤¤adriano.src¤pekwm default theme by adriano.src¤
+default-plain¤https://github.com/pekwm/pekwm.git¤master¤data/themes/default-plain¤¤Claes Nästén¤pekwm default plain theme (no images)¤
+ion-p¤https://github.com/pekdon/pekwm-theme-ion-p.git¤main¤¤https://github.com/pekdon/pekwm-theme-ion-p¤Claes Nästén¤ION styled themes for pekwm¤
+lila¤https://github.com/pekdon/pekwm-theme-lila.git¤main¤¤https://github.com/pekdon/pekwm-theme-lila¤Claes Nästén¤Original theme, previously named purple-p¤Original theme from the early days of pekwm, created on Solaris
+m0nst4¤https://github.com/okraits/pekwm-theme-m0nst4.git¤main¤¤https://github.com/okraits/pekwm-theme-m0nst4¤Oliver Kraitschy¤m0nst4, Fluxbox styled theme for pekwm¤m0nst4, ported from the Fluxbox m0nst4 theme by Christoph Strake aka chr1z.
+mavon-t¤https://github.com/okraits/pekwm-theme-mavon-t.git¤main¤¤https://github.com/okraits/pekwm-theme-mavon-t¤Oliver Kraitschy¤mavon-t, port of a theme for mavosxwm¤mavon-t, originally ported from mavosxwm to pekwm by chr1z.
+mikachuflat¤https://notabug.org/nitrofurano/pekwmthemes.git¤master¤themes/mikachuflat¤https://notabug.org/nitrofurano/pekwmthemes¤Paulo Silva¤mikachuflat¤
+minimal4dwm¤https://notabug.org/nitrofurano/pekwmthemes.git¤master¤themes/minimal4dwm¤https://notabug.org/nitrofurano/pekwmthemes¤Paulo Silva¤minimal4dwm¤
+pwm-p¤https://github.com/pekdon/pekwm-theme-pwm-p.git¤main¤¤https://github.com/pekdon/pekwm-theme-pwm-p¤Claes Nästén¤PWM styled themes for pekwm¤
+semitif¤https://notabug.org/nitrofurano/pekwmthemes.git¤master¤themes/semitif¤https://notabug.org/nitrofurano/pekwmthemes¤Paulo Silva¤Semitif¤A request of Claes Nästén (PekWM author), which theme i were also very curious to know how fine it would look on PekWM - mostly because it's a bit hard to find Motif-like themes available, which brings so nostalgic memories from all long-time Unix users.
+spiff-p¤https://github.com/pekdon/pekwm-theme-spiff-p.git¤master¤¤https://github.com/pekdon/pekwm-theme-spiff-p¤Claes Nästén¤spiff-p, port of E16 spiff theme by Garrett LeSage¤Early pekwm theme that has been updated multiple times over the years by amongst others okraits.
+windowmakerbased_4lba¤https://notabug.org/nitrofurano/pekwmthemes.git¤master¤themes/windowmakerbased_4lba¤https://notabug.org/nitrofurano/pekwmthemes¤Paulo Silva¤WindowMaker-based¤This one was a bit based on WindowMaker window decoration - the buttons are a bit different, all arranged in the left side, and they all have hover and press behaviours.
+winter¤https://github.com/pekwm/pekwm.git¤master¤data/themes/winter¤¤Claes Nästén¤pekwm 0.3.0 default theme¤

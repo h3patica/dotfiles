@@ -1,0 +1,48 @@
+sensor sensor_config_version 1
+sensor sensor_sysdep_private 1
+sensor sensor_float_factor 10000
+sensor gkrellm_float_factor 1000
+sensor sysdep_option use_nvclock 0
+sensor "BAT1" "IBM ACPI Battery 1" 10000 0 0 0
+sensor "BAT2" "IBM ACPI Battery 2" 10000 0 0 0
+sensor "CPU" "IBM ACPI CPU" 10000 0 0 0
+sensor "GPU" "IBM ACPI GPU" 10000 0 0 0
+sensor "HDD" "IBM ACPI HDD" 10000 0 0 0
+sensor "PCI" "IBM ACPI Mini PCI Module" 10000 0 0 0
+sensor "temp1" "iwlwifi_1-hwmon8/temp1" 10000 0 0 0
+sensor "temp1" "nvme-hwmon0/temp1" 10000 0 0 0
+sensor "temp2" "nvme-hwmon0/temp2" 10000 0 0 0
+sensor "temp3" "nvme-hwmon0/temp3" 10000 0 0 0
+sensor "temp" "thermal_zone0" 10000 0 0 0
+sensor "temp" "thermal_zone1" 10000 0 0 0
+sensor "temp" "thermal_zone2" 10000 0 0 0
+sensor "temp" "thermal_zone3" 10000 0 0 0
+sensor "temp" "thermal_zone4" 10000 0 0 0
+sensor "temp" "thermal_zone5" 10000 0 0 0
+sensor "temp" "thermal_zone6" 10000 0 0 0
+sensor "temp" "thermal_zone7" 10000 0 0 0
+sensor "temp" "thermal_zone8" 10000 0 0 0
+sensor "temp1" "coretemp-hwmon5/temp1" 10000 0 0 0
+sensor "temp2" "coretemp-hwmon5/temp2" 10000 0 0 0
+sensor "temp3" "coretemp-hwmon5/temp3" 10000 0 0 0
+sensor "temp4" "coretemp-hwmon5/temp4" 10000 0 0 0
+sensor "temp5" "coretemp-hwmon5/temp5" 10000 0 0 0
+sensor "temp1" "thinkpad-hwmon6/temp1" 10000 0 0 0
+sensor "temp2" "thinkpad-hwmon6/temp2" 10000 0 0 0
+sensor "temp3" "thinkpad-hwmon6/temp3" 10000 0 0 0
+sensor "temp4" "thinkpad-hwmon6/temp4" 10000 0 0 0
+sensor "temp5" "thinkpad-hwmon6/temp5" 10000 0 0 0
+sensor "temp6" "thinkpad-hwmon6/temp6" 10000 0 0 0
+sensor "temp7" "thinkpad-hwmon6/temp7" 10000 0 0 0
+sensor "temp8" "thinkpad-hwmon6/temp8" 10000 0 0 0
+sensor "temp1" "acpitz-hwmon3/temp1" 10000 0 0 0
+sensor "temp1" "pch_cannonlake-hwmon2/temp1" 10000 0 0 0
+sensor "Fan" "IBM ACPI Fan Sensor" 10000 0 0 0
+sensor "fan1" "thinkpad-hwmon6/fan1" 10000 0 0 0
+sensor "fan2" "thinkpad-hwmon6/fan2" 10000 0 0 0
+sensor "Vcor1" "bat0-hwmon4/in0" 10000 0 0 0
+sensor "Vcor1" "ucsi_source_psy_usbc000:001-hwmon7/in0" 10000 0 0 0
+sensor "Vcor1" "ucsi_source_psy_usbc000:002-hwmon9/in0" 10000 0 0 0
+sensor units_fahrenheit 0
+sensor show_units 1
+sensor volt_display_mode 0

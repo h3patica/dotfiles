@@ -1,0 +1,122 @@
+{ config, lib, pkgs, ... }:
+
+{
+  imports = [
+    ./config/i3.nix
+  ];
+  home.username = "hepatica";
+  home.homeDirectory = "/home/hepatica";
+
+  home.packages = with pkgs; [
+    zip
+    unzip
+    eza
+    fzf
+    pciutils
+    usbutils
+    neovim
+    alacritty
+    librewolf
+    gh
+    alsa-utils
+    dmenu
+    scrot
+    unclutter
+    xsel
+    slock
+    tamzen
+    terminus_font
+    iosevka
+    imagemagick
+    i3lock
+    dmenu
+    hsetroot
+    jetbrains.idea-community
+  ];
+
+  programs.kakoune = {
+    enable = true;
+    plugins = with pkgs.kakounePlugins; [
+      kak-lsp
+      parinfer-rust
+      smarttab-kak
+      kak-fzf
+    ];
+  };
+
+  programs.emacs = {
+    enable = true;
+    extraPackages = epkgs: [ epkgs.go-mode epkgs.nix-mode epkgs.lsp-mode ];
+  };
+
+  programs.git = {
+    enable = true;
+    userName = "hepatica";
+    userEmail = "ditto.voltorb@gmail.com";
+  };
+
+  programs.bash = {
+    enable = true;
+    enableCompletion = true;
+    shellAliases = {
+      rebuild = "sudo nixos-rebuild switch";
+      emacs = "emacs -nw";
+    };
+  };
+
+  programs.alacritty = {
+    enable = true;
+    settings = {
+      font = {
+        normal = {
+	  family = "Iosevka";
+	  style = "Regular";
+	};
+        bold = {
+	  family = "Iosevka";
+	  style = "Bold";
+	};
+        italic = {
+	  family = "Iosevka";
+	  style = "Italic";
+	};
+        bold_italic = {
+	  family = "Iosevka";
+	  style = "Bold Italic";
+	};
+      };
+      colors.primary = {
+        background = "#2D2A2E";
+	foreground = "#fff1f3";
+      };
+      colors.normal = {
+        black   = "#2c2525";
+        red     = "#fd6883";
+        green   = "#adda78";
+        yellow  = "#f9cc6c";
+        blue    = "#f38d70";
+        magenta = "#a8a9eb";
+        cyan    = "#85dacc";
+        white   = "#fff1f3";
+      };
+      colors.bright = {
+        black   = "#72696a";
+        red     = "#fd6883";
+        green   = "#adda78";
+        yellow  = "#f9cc6c";
+        blue    = "#f38d70";
+        magenta = "#a8a9eb";
+        cyan    = "#85dacc";
+        white   = "#fff1f3";
+      };
+    };
+  };
+
+  services.picom.enable = true;
+
+  home.file.".icons/default".source = "${pkgs.vanilla-dmz}/share/icons/Vanilla-DMZ";
+
+  home.stateVersion = "23.11";
+
+  programs.home-manager.enable = true;
+}
